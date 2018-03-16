@@ -81,3 +81,32 @@ ul#second-list{
 #list-bg{
   z-index: -1;
 }
+
+/* Sorting Vanessa */
+
+div.vanessa {
+  display: inline-block;
+  line-height: .5em;
+  width: 100%;
+  margin: 40px 0 80px 0;
+  padding: 0;
+  border: 1px solid black;
+}
+
+div#stevenson {
+  
+  display: inline-block;
+  line-height: 1em;
+  padding: 0;
+  margin: 0 0 0 20px;
+  border: 1px solid red;
+}
+
+button {
+  float: right;
+  background-color: #f26968;
+  font-family: 10px;
+  padding: 14px 40px;
+  box-shadow: 0 3px 6px 0;
+  margin: 50px 40px 20px 0;
+}
