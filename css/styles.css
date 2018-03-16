@@ -1,3 +1,9 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+
 body{
   width: 65%;
   margin: 0 auto;
@@ -43,3 +49,37 @@ ul#social li{
   padding: 0;
   display: inline;
 }
+
+ul#title{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul#title li:h1 p{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#first-list{
+  max-width: 30%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  position: absolute;
+
+}
+
+ul#second-list{
+  max-width: 30%;
+  float: left;
+  margin-left: 30%;
+  margin-top: 5%;
+  position: absolute;
+}
+
+#list-bg{
+  z-index: -1;
+}
+
+
