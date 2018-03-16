@@ -1,3 +1,85 @@
-body{
-  background-color: red;
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 0;
 }
+
+body{
+  width: 65%;
+  margin: 0 auto;
+
+}
+
+header{
+  overflow: hidden;
+  margin-top: 2%;
+  padding: 10px;
+  border-bottom: black dashed 10px;
+}
+
+#headerLogo{
+  float: left;
+  margin-right: 5px;
+}
+
+header ul{
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header h2{
+  float: left;
+  height: 30px;
+  margin: 0;
+}
+
+header p{
+  float: left;
+  font-size: 10px;
+  margin: 0;
+}
+ul#social{
+  float: right;
+}
+ul#social li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+ul#title{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul#title li:h1 p{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#first-list{
+  max-width: 30%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  position: absolute;
+
+}
+
+ul#second-list{
+  max-width: 30%;
+  float: left;
+  margin-left: 30%;
+  margin-top: 5%;
+  position: absolute;
+}
+
+#list-bg{
+  z-index: -1;
+}
+
+
