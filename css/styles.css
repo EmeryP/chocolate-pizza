@@ -89,8 +89,9 @@ div.vanessa {
   line-height: .5em;
   width: 100%;
   margin: 40px 0 80px 0;
-  padding: 30px 0 0 0;
-  border-top: 10px dashed black;
+  padding: 30px 0 0 0; 
+  border-top: black dashed 10px;
+  border-image: repeating-linear-gradient(30deg, #10110f, #fff, #000 20px) 60;
 }
 
 div#stevenson {
