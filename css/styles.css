@@ -1,48 +1,83 @@
-html {
-  width: 60%;
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+
+body{
+  width: 65%;
   margin: 0 auto;
+
 }
 
-div.content {
-  text-align: left;
+header{
+  overflow: hidden;
+  margin-top: 2%;
+  padding: 10px;
+  border-bottom: black dashed 10px;
 }
 
-nav.recipe {
-  /* box-sizing: border-box; */
-  border: 1px solid green;
-  line-height: 70px;
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-
-nav.recipe ul {
-  display:inline-block;
-  /* line-height: 70px; */
-  padding: 0;
-  list-style-type: square;
-  border: 1px solid red;
-}
-
-nav.recipe ul li {
-  padding: 0;
-  margin: 0;
-  border: 1px solid black;
-  
-  /* position: absolute; */
-}
-
-ul#first-list {
+#headerLogo{
   float: left;
-
+  margin-right: 5px;
 }
 
-ul#second-list {
+header ul{
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header h2{
+  float: left;
+  height: 30px;
+  margin: 0;
+}
+
+header p{
+  float: left;
+  font-size: 10px;
+  margin: 0;
+}
+ul#social{
   float: right;
-
-  /* position: relative; */
 }
-footer{
-  overflow:hidden;
+ul#social li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
 }
 
+ul#title{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul#title li:h1 p{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#first-list{
+  max-width: 30%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  position: absolute;
+
+}
+
+ul#second-list{
+  max-width: 30%;
+  float: left;
+  margin-left: 30%;
+  margin-top: 5%;
+  position: absolute;
+}
+
+#list-bg{
+  z-index: -1;
+}
