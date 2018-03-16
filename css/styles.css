@@ -139,3 +139,40 @@ ul#second-list{
   z-index: -1;
 }
 
+/* Sorting Vanessa */
+
+div.vanessa {
+  display: inline-block;
+  line-height: .5em;
+  width: 100%;
+  margin: 40px 0 80px 0;
+  padding: 30px 0 0 0; 
+  border-top: black dashed 10px;
+  border-image: repeating-linear-gradient(30deg, #10110f, #fff, #000 20px) 60;
+}
+
+div#stevenson {
+  
+  display: inline-block;
+  line-height: 1em;
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+
+button {
+  float: right;
+  background-color: #f26968;
+  font-family: 10px;
+  padding: 12px 30px;
+  box-shadow: 0 3px 6px 0;
+  margin: 30px 40px 30px 0;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  margin: 50px;
+  padding: 0;
+}
+
