@@ -1,5 +1,5 @@
 # Chocolate-pizza
-A classmate and I were given a design comp and asked to replicate it as closely as possible in 4 hours.
+A classmate and I were given a "chocolate-pizza" design comp and asked to replicate it as closely as possible in 4 hours.
 
 ### Getting Started
 * Fork and clone this repo to your local machine
